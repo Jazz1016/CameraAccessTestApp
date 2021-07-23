@@ -56,15 +56,23 @@
 		0D7DF9A426AB81EB0052DE22 /* CameraAccessTest */ = {
 			isa = PBXGroup;
 			children = (
-				0D7DF9A526AB81EB0052DE22 /* AppDelegate.swift */,
-				0D7DF9A726AB81EB0052DE22 /* SceneDelegate.swift */,
+				0D7DF9B926AB82CB0052DE22 /* Resources */,
 				0D7DF9A926AB81EB0052DE22 /* ViewController.swift */,
 				0D7DF9AB26AB81EB0052DE22 /* Main.storyboard */,
-				0D7DF9AE26AB81ED0052DE22 /* Assets.xcassets */,
 				0D7DF9B026AB81ED0052DE22 /* LaunchScreen.storyboard */,
-				0D7DF9B326AB81ED0052DE22 /* Info.plist */,
 			);
 			path = CameraAccessTest;
+			sourceTree = "<group>";
+		};
+		0D7DF9B926AB82CB0052DE22 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0D7DF9A526AB81EB0052DE22 /* AppDelegate.swift */,
+				0D7DF9A726AB81EB0052DE22 /* SceneDelegate.swift */,
+				0D7DF9AE26AB81ED0052DE22 /* Assets.xcassets */,
+				0D7DF9B326AB81ED0052DE22 /* Info.plist */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,7 +296,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5L2PGYP5GB;
-				INFOPLIST_FILE = CameraAccessTest/Info.plist;
+				INFOPLIST_FILE = CameraAccessTest/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +315,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5L2PGYP5GB;
-				INFOPLIST_FILE = CameraAccessTest/Info.plist;
+				INFOPLIST_FILE = CameraAccessTest/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
